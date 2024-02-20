@@ -26,7 +26,8 @@ body {
 .hero > div {
   position: absolute;
   top: 30vh;
-  left: 15vh;
+  left: 50%;
+  transform: translate(-50%, 0);
 
   background: rgba(0, 0, 0, 0.336);
   color: aliceblue;
@@ -42,7 +43,9 @@ body {
 
   position: absolute;
   top: 80vh;
-  left: 55vh;
+  left: 50%;
+
+  transform: translate(-50%, 0);
   rotate: 90deg;
   animation: arrow 0.8s linear infinite;
 }
